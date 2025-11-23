@@ -25,7 +25,7 @@ sudo iptables -A FORWARD -i eth0 -o tun0 -m state --state ESTABLISHED,RELATED -j
 # 使用sudo iptables -L FORWARD -n -v 检查
 ```
 
-####
+#### client
 ``` bash
 # 1.给 TUN 网卡配置 IP，网卡名称 WaterIface 在执行client程序会得到，地址必须和 server 在同一网段（10.8.0.x）。
 netsh interface ip set address name="WaterIface" static 10.8.0.2 255.255.255.0
