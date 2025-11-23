@@ -1,0 +1,5 @@
+{
+  "listenAddr": ":11945",
+  "psk": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "tunIp": "10.8.0.1/24"
+}

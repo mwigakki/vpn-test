@@ -1,0 +1,5 @@
+{
+  "serverAddr": "xxx:11945",
+  "psk": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "tunIip": "10.8.0.2/24"
+}
